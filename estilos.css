@@ -1,0 +1,8 @@
+.teclas{
+    display: flex;
+    margin: 1% 0px;
+}
+.cero{
+    justify-content: space-between;
+
+}

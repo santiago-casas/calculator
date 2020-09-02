@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="logica.js"></script>
+    <style ></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        calculadora
+    </h2>
+    <h3>
+       <br> <!--{{ }}-->
+    </h3>
+    <h2 id="resultadoEnPantalla">
+        inserte numeros
+    </h2>
+    <section>
+        <div>
+            <div class="teclas">
+                <button onclick="eleccionNumero(3)">3</button>
+                <button onclick="eleccionNumero(2)">2</button>
+                <button onclick="eleccionNumero(1)">1</button>
+            </div>
+            <div class="teclas">
+                <button onclick=eleccionNumero(6)>6</button>
+                <button onclick=eleccionNumero(5)>5</button>
+                <button onclick=eleccionNumero(4)>4</button>
+            </div>
+            <div class="teclas">
+                <button onclick=eleccionNumero(9)>9</button>
+                <button onclick=eleccionNumero(8)>8</button>
+                <button onclick=eleccionNumero(7)>7</button>
+            </div>
+            <div class="cero">
+                <button (onclick)=eleccionNumero(0)>0</button>
+            </div>
+        </div>
+        <div>
+            <div class="teclas">
+                <button onclick=elecccionOperacion(1)>+</button>
+                <button onclick=elecccionOperacion(2)>-</button>
+                <button onclick=elecccionOperacion(3)>/</button>
+                <button onclick=elecccionOperacion(4)>*</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <button onclick=llamarResultado()>resultado</button>
+        <button onclick=atras()>atras</button>
+        <button>limpiar</button>
+    </section>
+</body>
+</html>
